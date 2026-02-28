@@ -1,0 +1,57 @@
+/* General page styling */
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fceefd;
+    color: #3a2a4d;
+}
+
+/* Header and navigation */
+header {
+    background-color: #6a4c9c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffd6ff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Category layout */
+.categories {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     gap: 20px;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #d7b4f3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #6a4c9c;
+    color: white;
+    margin-top: 40px;
+}
